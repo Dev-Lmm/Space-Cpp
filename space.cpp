@@ -102,7 +102,7 @@ void nave::life() {
 	gotoXY(70,2); printf("     ");
 	for(int i =0; i<life;i++)
 	{
-		gotoXY(70+i,2); printf("X");
+		gotoXY(70+i,2); printf("❤");
 	}
 }
 
