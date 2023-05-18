@@ -211,7 +211,8 @@ int main(int argc, char const *argv[]) {
 	int points = 0;
 	bool gg = false;
 	while(! gg)	{
-		gotoXY(4,2);printf("Puntos: %d", points);
+		gotoXY(4,2);
+		printf("Puntos: %d", points);
 		if(kbhit()) {
 			char key = getch();
 			if(key == 'a') {
